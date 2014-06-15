@@ -40,7 +40,7 @@ $(document).ready(function() {
       $("ul#scalene").append("<li><span id='scalene'>" + newTriangle.side1 + ", " + newTriangle.side2 + ", " + newTriangle.side3 + "</span></li>");
      }
   else if (newTriangle.type() === "NaT" ){
-    alert ("Not a triangle - idiot!");
+    alert ("Not a triangle!");
   }
  else{
    return false;
